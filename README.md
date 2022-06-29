@@ -6,9 +6,13 @@
 * Platformer demo
 * Unitement game test demo
 * Unitement game demo
-## Software You need
+## Software
+### To launch
 * [GDevelop](https://gdevelop.io/)
-* Aseprite
+### Used in development
+* [Aseprite](https://www.aseprite.org/)
+* [GDevelop](https://gdevelop.io/)
+
 ## How to launch
 * Open folder as a GDevelop project
 ## Contributors
