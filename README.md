@@ -1,6 +1,6 @@
 # GDevelop Projects
 ## What are those?
-###These prjects are simple games developed on GDevelop (HTML5).
+### These prjects are simple games developed on GDevelop (HTML5).
 *Sidescreoller demo
 *Point & click demo
 *Platformer demo
