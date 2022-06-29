@@ -13,4 +13,4 @@
 ## Contributors
 *Alek-Jaan Tsern
 ## Licence & copyright
-© Licenced under [MIT Licence](LICENCE)
+© Licenced under the [MIT Licence](LICENCE)
