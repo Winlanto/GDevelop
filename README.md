@@ -7,7 +7,7 @@
 * Unitement game test demo
 * Unitement game demo
 ## Software You need
-* GDevelop
+* [GDevelop](https://gdevelop.io/)
 * Aseprite
 ## How to launch
 * Open folder as a GDevelop project
