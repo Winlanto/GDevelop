@@ -11,6 +11,6 @@
 ## How to launch
 * Open folder as a GDevelop project
 ## Contributors
-* Alek-Jaan Tsern
+* [Alek-Jaan Tsern](https://github.com/Winlanto/)
 ## Licence & copyright
 © Licenced under the [MIT Licence](LICENCE)
