@@ -1,0 +1,986 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectUuid": "422dafaa-5b33-4e51-b401-5045ec780b72",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Unitment",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 30,
+    "minFPS": 30,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/logo1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\logo1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/press-up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\press-up.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/press-up-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\press-up-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mountains2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mountains2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprite_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprite_00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprite_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprite_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprite_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprite_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprite_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sprite_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/chara2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\chara2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/trap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\trap.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/angry1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\angry1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/invisible.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\invisible.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/coin_gold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coin_gold.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/victory.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\victory.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_strike.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fire_strike.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/clouds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\clouds.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cloud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cloud.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/invisible-right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\invisible-right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/invisible-left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\invisible-left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/char2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\char2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/char1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\char1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/person10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\person10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/test_clouds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\test_clouds.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/test_clouds2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\test_clouds2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/clouds_double.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\clouds_double.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mountains.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mountains.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mountain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mountain.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/big tile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\big tile.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tree.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tree2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Attack_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Attack_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Attack_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Attack_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Attack_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Attack_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Attack_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Attack_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Attack_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Attack_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Attack_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Attack_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Attack_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Attack_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Attack_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Attack_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Hit_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Hit_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Hit_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Hit_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Hit_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Hit_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Hit_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Hit_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Hit_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Hit_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Idle_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Idle_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bee_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bee_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pixel Adventure Pack/Enemies/Bee/Bee_Idle_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/boulder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\boulder.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/house.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\house.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/moon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\moon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor_button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\floor_button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hjalp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hjalp.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/singleTile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\singleTile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/hjalpa mig.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hjalpa mig.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/idle anim1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\idle anim1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/idle anim2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\idle anim2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/moving anim10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\moving anim10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/fighting anim1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\fighting anim1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/fighting anim2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\fighting anim2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/fighting anim3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\fighting anim3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/fighting anim4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\fighting anim4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/fighting anim5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\fighting anim5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/fighting anim6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\fighting anim6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ass/characters/fighting anim7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ass\\characters\\fighting anim7.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "score",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "oldScore",
+      "type": "string",
+      "value": "0"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lo-fi-proto"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/end2"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/platforming"
+    }
+  ],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
